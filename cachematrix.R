@@ -1,11 +1,11 @@
 ## Below functions are used to create a special object that stores a numeric matrix 
 ## and cache's its inverse.
 
-# creates a special "matrix" which is a list containing functions:
-# - set: set the value of the matrix
-# - get: get the value of the matrix
-# - setinverse: set the inverse of the matrix
-# - getinverse: get the inverse of the matrix
+## creates a special "matrix" which is a list containing functions:
+## - set: set the value of the matrix
+## - get: get the value of the matrix
+## - setinverse: set the inverse of the matrix
+## - getinverse: get the inverse of the matrix
 
 makeCacheMatrix <- function(x = matrix()) {
     inv <- NULL
